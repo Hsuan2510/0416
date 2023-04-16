@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+    <title>恰恰的網站</title>
+
+    <style>
+
+            <style>
+                div{
+                    color: #f00;
+                    font-size:72px;
+                }
+                img{width: 50%;
+                height: 50%;}
+                div {
+                    margin: 4px ;
+                    border: 2px rgb(58, 20, 148);
+                    padding: 20px;
+                   
+                 }
+                #chia-head{
+                    background-color: aqua;
+                    display: inline-block;
+                }
+                .baseball{
+                    background-color: blueviolet;
+                    display:inline-block;
+                }
+                .little-animation {
+                    position: relative;
+                    left: 0;
+    
+                     /* -外觀設定- */
+                    background-color: red;
+                    display: inline-block;
+                    padding: 30px;
+                    /* --------- */
+                    }
+                    .little-animation:hover {
+                        left: 10%
+                    }
+
+                    div.little-animation:hover{
+                        background-color:darkgray;
+                     
+
+                    }
+                
+    </style>
+    </head>
+    <button type="button" class="btn 1">1</button>
+    <button type="button" class="btn btn-secondary">Secondary</button>
+    <button type="button" class="btn btn-success">Success</button>
+    <button type="button" class="btn btn-danger">Danger</button>
+    <button type="button" class="btn btn-warning">Warning</button>
+    <button type="button" class="btn btn-info">Info</button>
+    <button type="button" class="btn btn-light">Light</button>
+    <button type="button" class="btn btn-dark">Dark</button>
+    
+    <button type="button" class="btn btn-link">Link</button>
+    <body>
+    <h1>彭政閔</h1>
+ 
+    <p>歡迎想了解彭政閔的球迷~</p>
+    <img src ="C:\html網頁設計\23.jpg" />
+    <ul>
+        <li>我是棒球員</li>
+        <li>我的帳號</li>
+    <ul>
+
+        <a href="https://www.instagram.com/chia23_peng/?hl=zh-tw">chia23_peng</a>
+            <div id="chia-head" class="player">
+                <p>Some thing</p>
+            </div>
+            <div id="chia-body" class="baseball">
+                <p>Anothor thing </p>
+                
+            </div>
+            <div class="little-animation">
+                <p>我是紅色盒盒</p>
+            </div>
+  
+
+    
+    </body>
+    <p id="text">0</p>
+    <button id="btn-1">Plus</button>
+    <button id="btn-2">2</button>
+    <script>
+        const ONE=1;
+        var vary=100;
+        console.log(ONE,vary)
+        
+
+        function myFun(param){
+            for(var i=0;i<100;i++)
+            param--;
+            console.log("Hey!");
+            console.log("Hey!");
+            console.log(param);
+            return param;
+        }
+        myFun(10);
+        let a=0;
+        document.getElementById("btn-1");
+        onclick=(function(){
+            document.getElementById("text").innerText=a;
+            a++;
+        })
+    </script>
+</html>
