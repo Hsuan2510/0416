@@ -62,8 +62,8 @@
     <h1>彭政閔</h1>
  
     <p>歡迎想了解彭政閔的球迷~</p>
-    <img src ="C:\html網頁設計\23.jpg" />
-	<link rel="stylesheet" href="C:\Users\dell\Desktop\project\style.css">
+    <img src ="C:\Users\dell\Desktop\project\23.jpg" />
+	<link rel="stylesheet" href="css\style.css">
     <ul>
         <li>我是棒球員</li>
         <li>我的帳號</li>
